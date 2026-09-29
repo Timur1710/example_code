@@ -1,0 +1,1 @@
+export { default as RouteDialogTemplate } from './RouteDialogTemplate.vue';

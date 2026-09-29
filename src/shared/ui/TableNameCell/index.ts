@@ -1,0 +1,1 @@
+export {default as TableNameCell} from './TableNameCell.vue'

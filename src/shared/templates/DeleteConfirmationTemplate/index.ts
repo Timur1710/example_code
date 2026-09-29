@@ -1,0 +1,1 @@
+export { default as DeleteConfirmationTemplate } from './DeleteConfirmationTemplate.vue';

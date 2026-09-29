@@ -1,0 +1,85 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+/* ===================== quasar ===================== */
+$primary: #111010;
+$secondary: #26a69a;
+$accent: #9c27b0;
+
+$dark: #1d1d1d;
+$dark-page: #121212;
+
+$positive: #21ba45;
+$negative: #c10015;
+$info: #31ccec;
+$warning: #f2c037;
+
+//* ===================== base ===================== */
+$black: #000000;
+$white: #ffffff;
+$gray: #f6f6f6;
+$strong-gray: #a2a2a2;
+
+:root {
+  /* base */
+  --black: #{$black};
+  --white: #{$white};
+  --gray: #{$gray};
+  --strong-gray: #{$strong-gray};
+
+  /* quasar */
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --accent: #{$accent};
+  --dark: #{$dark};
+  --dark-page: #{$dark-page};
+  --positive: #{$positive};
+  --negative: #{$negative};
+  --info: #{$info};
+  --warning: #{$warning};
+.pointer {
+  cursor: pointer;
+}
+  /* ===================== base ===================== */
+.bg-black { background-color: var(--black); }
+.bg-white { background-color: var(--white); }
+.bg-gray { background-color: var(--gray); }
+.bg-strong-gray { background-color: var(--strong-gray); }
+
+.text-black { color: var(--black); }
+.text-white { color: var(--white); }
+.text-gray { color: var(--gray); }
+.text-strong-gray { color: var(--strong-gray); }
+
+/* ===================== quasar ===================== */
+.bg-primary { background-color: var(--primary); }
+.bg-secondary { background-color: var(--secondary); }
+.bg-accent { background-color: var(--accent); }
+.bg-dark { background-color: var(--dark); }
+.bg-dark-page { background-color: var(--dark-page); }
+.bg-positive { background-color: var(--positive); }
+.bg-negative { background-color: var(--negative); }
+.bg-info { background-color: var(--info); }
+.bg-warning { background-color: var(--warning); }
+
+.text-primary { color: var(--primary); }
+.text-secondary { color: var(--secondary); }
+.text-accent { color: var(--accent); }
+.text-dark { color: var(--dark); }
+.text-dark-page { color: var(--dark-page); }
+.text-positive { color: var(--positive); }
+.text-negative { color: var(--negative); }
+.text-info { color: var(--info); }
+.text-warning { color: var(--warning); }
+}
+

@@ -1,0 +1,1 @@
+export { default as PprTab } from './ui/PprTab.vue';
